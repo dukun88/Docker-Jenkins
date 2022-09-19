@@ -9,5 +9,5 @@ version: '3.8'
         - 50000:50000
       container_name: jenkins
       volumes:
-        - /home/${myname}/jenkins_compose/jenkins_configuration:/var/jenkins_home
+        - /home/${name}/jenkins_compose/jenkins_configuration:/var/jenkins_home
         - /var/run/docker.sock:/var/run/docker.sock
